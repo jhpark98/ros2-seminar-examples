@@ -31,7 +31,7 @@ RUN mkdir -p $ROS_WS/src
 WORKDIR $ROS_WS/src
 
 # Clone the desired repository
-RUN git clone https://github.com/robotpilot/ros2-seminar-examples.git
+RUN git clone https://github.com/jhpark98/ros2-seminar-examples.git
 
 # Change to the workspace directory
 WORKDIR $ROS_WS
